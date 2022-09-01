@@ -1,5 +1,5 @@
 // Allow the user to enter a name
-let firstName = prompt("Enter firsname: ")
+let firstName = prompt("Enter firsname all in small letters: ")
 // take the first character of the name by using the slice function
 let firstChar = firstName.slice(0,1)
 // use the toUpperCase function to make the first character a capital letter
